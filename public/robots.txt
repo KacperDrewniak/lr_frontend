@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://lr-project.vercel.app/sitemap.xml
+Host: https://lr-project.vercel.app

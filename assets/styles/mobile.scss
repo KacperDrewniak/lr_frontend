@@ -1,0 +1,58 @@
+
+#___gatsby {
+  overflow: hidden;
+}
+
+@media (max-width: 1800px) {
+  .header{
+    width: 100vw;
+  }
+}
+@media (max-width: 1440px) {
+  .main{
+    width: 100vw;
+  }
+  .nav{
+    width: 95%;
+
+  }
+}
+@media (max-width: 1024px) {
+  #baner_text {
+    padding: 5px;
+    #text {
+      padding: 0;
+    }
+  }
+  .main{
+    padding:0 0 50px 0;
+  }
+  .baner{
+    margin:1rem 0;
+  }
+  .nav{
+    display: none !important;
+  }
+  .hamburger-icon{
+    display: flex;
+  };
+  .header{
+    height: 600px;
+  }
+  .motto{
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  .header{
+    margin:0 auto;
+  }
+}
+
+@media (max-width: 768px){
+  .header{
+    height: 500px;
+  }
+  .post{
+    width: 100% !important;
+  }
+}

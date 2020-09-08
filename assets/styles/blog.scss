@@ -1,0 +1,28 @@
+@import "mobile";
+
+.post {
+  width: 80%;
+  margin: 0 auto;
+  background-color: lightgray;
+  border-radius: 40px;
+
+  .title {
+    margin-top:1rem;
+    background-image: linear-gradient(to right, #d07575, #7b7b35);
+    padding:1rem;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .description{
+    padding: 20px;
+  }
+
+  .footer {
+    background-image: linear-gradient(to right, #485531, #2e9222);
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+    text-align: right;
+  }
+
+}
+
